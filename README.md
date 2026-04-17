@@ -4,12 +4,12 @@ Este repositório reúne exemplos de código para quem está começando a progra
 
 ## Conteúdo
 
+- `Blink.ino` — Exemplo clássico de piscar o LED interno (Blink)
 - `Aula1.ino` — Primeiro exemplo básico para iniciar o Arduino
 - `Aula2.ino` — Segundo exemplo com novos conceitos
 - `Aula3.ino` — Terceiro exemplo com componentes adicionais
 - `Aula4.ino` — Quarto exemplo com lógica de controle
 - `Aula5.ino` — Quinto exemplo com entradas e saídas
-- `Blink.ino` — Exemplo clássico de piscar o LED interno (Blink)
 - `Aula6.ino` — Sexto exemplo com temporizações
 - `Aula7.ino` — Sétimo exemplo sobre relé
 - `Aula8.ino` — Oitavo exemplo sobre entendimento de motores
@@ -17,7 +17,7 @@ Este repositório reúne exemplos de código para quem está começando a progra
 ## Como usar
 
 1. Abra o Arduino IDE.
-2. Selecione a placa e a porta correta.
+2. Vá em Tools e selecione a placa e a porta correta.
 3. Abra o arquivo `.ino` desejado.
 4. Compile e envie para a placa.
 
@@ -32,4 +32,3 @@ Este repositório reúne exemplos de código para quem está começando a progra
 
 - Este repositório é destinado a iniciantes.
 - Os arquivos podem ser usados como base para estudos e pequenas modificações.
-- Se quiser enviar para o GitHub, adicione um repositório remoto e faça `git push`.
