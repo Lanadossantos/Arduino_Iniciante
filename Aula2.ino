@@ -5,7 +5,6 @@ Pratica: Botão que liga o LED e Botão liga/desliga o LED
 int LED = 9;
 int b1 = 3;
 
-bool estadoLED = false;
 int estadob1 = 0;
 
 void botaoLigaLED(){
@@ -21,9 +20,11 @@ void botaoLigaLED(){
 
 void botaoLigaDesligaLED(){
   if(estadob1 == HIGH){
-    estadoLED = !estadoLED;
-    digitalWrite(LED, estadoLED);
-    delay(500);
+    digitalWrite(led, HIGH);
+  } else {
+    digitalWrite(led, LOW);
+  }
+  delay(10);
   }
 }
 
