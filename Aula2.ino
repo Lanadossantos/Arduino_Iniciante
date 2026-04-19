@@ -2,8 +2,8 @@
 Pratica: Botão que liga o LED e Botão liga/desliga o LED
 */
 
-int LED = 9;
-int b1 = 3;
+int LED = 3;
+int b1 = 2;
 
 int estadob1 = 0;
 
@@ -19,13 +19,13 @@ void botaoLigaLED(){
 }
 
 void botaoLigaDesligaLED(){
+  estadob1 = digitalRead(b1);
   if(estadob1 == HIGH){
-    digitalWrite(led, HIGH);
+    digitalWrite(LED, HIGH);
   } else {
-    digitalWrite(led, LOW);
+    digitalWrite(LED, LOW);
   }
   delay(10);
-  }
 }
 
 void setup(){
@@ -34,7 +34,6 @@ void setup(){
 }
 
 void loop(){
-  estadob1 = digitalRead(b1);
   //botaoLigaLED();
   botaoLigaDesligaLED();
   
