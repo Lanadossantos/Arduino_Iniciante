@@ -1,8 +1,8 @@
 /*
-Entender controle analogico(analogRead() (0-1023) 2 bytes, analogWrite() (PWM) 1 byte) 
+Entender controle analogico(analogRead(), analogWrite()) 
 Pratica: Potênciometro controla brilho do LED
-AnalogRead ler de 0 a 1023
-AnalogWrite escreve de 0 a 255
+AnalogRead ler de 0 a 1023 (0-1023) 2 bytes
+AnalogWrite escreve de 0 a 255 (PWM) 1 byte
 */
 
 int potenciometro = A0;
